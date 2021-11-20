@@ -1,4 +1,5 @@
 **Problem**:
+
 A well-formed pdf file should end with a line starting with '%% EOF' (with sometimes, rarely, spurious bytes after this mark).
 The object of the exercise is to quickly determine the offset in the file of the last occurrence of the 'line' starting with '%% EOF'. The offset is the index in bytes in the file of the first character, or -1 if the file does not contain an occurrence.
 (The objective is to taking as argument the path to the pdf file to analyze, and displaying the offset in decimal on the standard output (-1 if there is no "%%EOF")).
