@@ -6,7 +6,7 @@ The object of the exercise is to quickly determine the offset in the file of the
 
 **Run Instruction**:
 
-To run the code you can easily use Jupyter Notebook or simply run the script in command line by "ipython netheos_amir.ipynb" (you have to installed ipython)
+To run the code you can easily use Jupyter Notebook or simply run the script in command line by "ipython netheos_amir.ipynb" (you have to have installed ipython)
 
 **Solution**:
 1) Instead of reading the whole file, I read from the end of the file. I read until I reach the "\n" or "\r" to find the last line. This way is efficient, especially for large files.
